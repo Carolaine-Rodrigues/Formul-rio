@@ -1,0 +1,96 @@
+:root{
+    --bluehue: #1E90FF;
+    --fundoblue: #4B0082;
+    --telafundo: #D3D3D3;
+    --gray31: #4F4F4F;
+    --corred: #FF0000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--telafundo);
+    color: white;
+}
+h2{
+    font-weight: 800;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-content: center;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10%;
+    border: 1px solid var(--fundoblue);
+    border-radius: 12px;
+    background: var(--fundoblue);
+    box-shadow: #8A2BE2 6px 6px 6px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.container3{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 10px;
+}
+input{
+    background: var(--fundoblue);
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid rgba( 255, 0, 0, 0);
+}
+input{
+    border-bottom: 2px solid white;
+}
+button, a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 58%;
+    height: 30px;
+    margin-left: 21%;
+    margin-bottom: 5px;
+    color: white;
+    background: #8310ee;
+    border: 1px solid var(--fundoblue);
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .4s;
+    cursor: pointer;
+}
+button{
+    margin-bottom: 3px;
+}
+button:hover{
+    background-image: linear-gradient(to right, rgb(57, 41, 128), violet);
+}
+.span1{
+    display: none;
+    color: var(--corred);
+    text-align: left;
+    
+}

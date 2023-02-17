@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>Logar no sistema</h2>
+            <form action="" id="form">
+             <div class="container2">
+                <div class="container3">
+                <input type="text" placeholder="Digite seu nome" class="inputs  requery" oninput="validaNome()">
+                <span class="span1">Nome deve ter no mínimo 3 caracteres</span>
+                 <input type="email" placeholder="email@gmail.com" class="inputs  requery" oninput="validaEmail()">
+                 <span class="span1">Digite um email válido</span>
+                 <input type="password" placeholder="Digite sua senha" class="inputs  requery" oninput="validaSenha()">
+                 <span class="span1">Digite uma senha válida</span>
+               </div>
+               <div class="conatiner4">
+                <button type="submit" id="botao">Login</button>
+              </div>
+            </div>
+            </form>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
